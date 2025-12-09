@@ -1,0 +1,1189 @@
+2025-10-19 18:15:27 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-10-19 18:15:27 INFO  (LoggingInitialization) Using log file: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/application.log  
+2025-10-19 18:15:27 INFO  (Preferences) Loading user preferences: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/preferences  
+2025-10-19 18:15:27 INFO  (Preferences) Loading previous preferences: /home/admin/.ghidra/.ghidra_11.0.3_DEV/preferences  
+2025-10-19 18:15:31 INFO  (ClassSearcher) Searching for classes...  
+2025-10-19 18:15:32 INFO  (ClassSearcher) Class search complete (621 ms)  
+2025-10-19 18:15:32 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-10-19 18:15:32 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-10-19 18:15:32 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-10-19 18:15:32 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-10-19 18:15:32 INFO  (GhidraRun) User admin started Ghidra.  
+2025-10-19 18:15:32 INFO  (GhidraRun) User settings directory: /home/admin/.config/ghidra/ghidra_11.4.2_DEV  
+2025-10-19 18:15:32 INFO  (GhidraRun) User temp directory: /tmp/admin-ghidra  
+2025-10-19 18:15:32 INFO  (GhidraRun) User cache directory: /var/tmp/admin-ghidra  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) Found the following default tools:   
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -Debugger - defaultTools/Debugger.tool  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -CodeBrowser - defaultTools/CodeBrowser.tool  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -Version Tracking - defaultTools/VersionTracking.tool  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -Emulator - defaultTools/Emulator.tool  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) Found existing tools; merging existing tools:   
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -Debugger - /home/admin/.ghidra/.ghidra_11.0.3_DEV/tools/_debugger.tcd  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -CodeBrowser - /home/admin/.ghidra/.ghidra_11.0.3_DEV/tools/_code_browser.tcd  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -Version Tracking - /home/admin/.ghidra/.ghidra_11.0.3_DEV/tools/_version _tracking.tcd  
+2025-10-19 18:15:32 DEBUG (DefaultProjectManager) -Emulator - /home/admin/.ghidra/.ghidra_11.0.3_DEV/tools/_emulator.tcd  
+2025-10-19 18:15:33 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-10-19 18:15:33 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/pwnable.tw  
+2025-10-19 18:15:33 INFO  (GhidraRun) Ghidra startup complete (6499 ms)  
+2025-10-19 18:15:52 INFO  (FileActionManager) Closed project: pwnable.tw  
+2025-10-19 18:15:52 INFO  (DefaultProject) Creating project: /home/admin/ctf/re/pococtf  
+2025-10-19 18:16:22 WARN  (DebuggerModulesPlugin) Plugin DebuggerModulesPlugin did not register a service handler for: interface ghidra.app.services.DebuggerAutoMappingService  
+2025-10-19 18:16:43 WARN  (FileActionManager) Cannot Delete Active Project: You must close your project to delete it.  
+2025-10-19 18:16:49 INFO  (FileActionManager) Closed project: pococtf  
+2025-10-19 18:16:49 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/pococtf  
+2025-10-19 18:16:49 INFO  (FileActionManager) Opened project: pococtf  
+2025-10-19 18:16:57 WARN  (FileActionManager) Cannot Delete Active Project: You must close your project to delete it.  
+2025-10-19 18:17:04 INFO  (FileActionManager) Closed project: pococtf  
+2025-10-19 18:17:15 INFO  (FileActionManager) Deleted project: pococtf  
+2025-10-19 18:17:26 INFO  (DefaultProject) Creating project: /home/admin/ctf/re/picoctf  
+2025-10-19 18:17:39 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/admin-ghidra/fscache2  
+2025-10-19 18:17:39 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2025-10-19 18:17:49 DEBUG (ElfHeader) Elf symbol table section .symtab linked to string table section .strtab  
+2025-10-19 18:17:49 DEBUG (ElfHeader) Elf relocation table section .rela.plt affecting .got.plt  
+2025-10-19 18:17:50 DEBUG (ElfHeader) Elf symbol table section .symtab linked to string table section .strtab  
+2025-10-19 18:17:50 DEBUG (ElfHeader) Elf relocation table section .rela.plt affecting .got.plt  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_1.5 at 006b9ef4  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_1.7 at 006b9ff8  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 16-byte alignment/filler segment_1.9 at 006ba0d0  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_1.12 at 006bbcd8  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_0.4 at 004001d4  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_0.7 at 00400417  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 13-byte alignment/filler segment_0.11 at 00491f43  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_0.13 at 0049303b  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 27-byte alignment/filler segment_0.15 at 00493045  
+2025-10-19 18:17:50 DEBUG (ElfProgramBuilder) Discarding 3-byte alignment/filler segment_0.18 at 004ac3ad  
+2025-10-19 18:17:51 INFO  (ImporterUtilities) Additional info:
+Loading file:///home/admin/ctf/picoctf/2020/vuln?MD5=166a881e3a2ae735c51ddf43c1d3a6f1...
+Unsupported Thread-Local Symbol not loaded: thread_arena
+Unsupported Thread-Local Symbol not loaded: tcache
+Unsupported Thread-Local Symbol not loaded: tcache_shutting_down
+Unsupported Thread-Local Symbol not loaded: catch_hook
+Unsupported Thread-Local Symbol not loaded: errno
+Unsupported Thread-Local Symbol not loaded: __libc_tsd_CTYPE_TOLOWER
+Unsupported Thread-Local Symbol not loaded: _nl_current_LC_CTYPE
+Unsupported Thread-Local Symbol not loaded: __libc_errno
+Unsupported Thread-Local Symbol not loaded: _nl_current_LC_NUMERIC
+Unsupported Thread-Local Symbol not loaded: __libc_tsd_CTYPE_B
+Unsupported Thread-Local Symbol not loaded: __libc_tsd_LOCALE
+Unsupported Thread-Local Symbol not loaded: __libc_tsd_CTYPE_TOUPPER
+Unsupported Thread-Local Symbol not loaded: _nl_current_LC_MONETARY
+Setting block .tdata to read-only
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+------------------------------------------------
+
+  
+2025-10-19 18:17:55 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/admin-ghidra/packed-db-cache  
+2025-10-19 18:17:55 DEBUG (PackedDatabaseCache) Caching packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-19 18:17:55 DEBUG (PackedDatabase) Unpacking database /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt -> /var/tmp/admin-ghidra/packed-db-cache/pdb69F53523/db.1.gbf  
+2025-10-19 18:17:55 DEBUG (PackedDatabaseCache) Cache update completed: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-19 18:18:00 DEBUG (ToolTaskManager) Background processing started...  
+2025-10-19 18:18:00 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-10-19 18:18:00 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=670139b05b438fbd512de3e3a3bf2715f295cbbc]  
+2025-10-19 18:18:00 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2025-10-19 18:18:20 DEBUG (PackedDatabaseCache) Caching packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-10-19 18:18:20 DEBUG (PackedDatabase) Unpacking database /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt -> /var/tmp/admin-ghidra/packed-db-cache/pdb89093C21/db.1.gbf  
+2025-10-19 18:18:20 DEBUG (PackedDatabaseCache) Cache update completed: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-10-19 18:18:20 INFO  (ApplyFunctionDataTypesCmd) Multiple function definitions for __sigsetjmp at 0045bb50 found.  No function signature applied.  
+2025-10-19 18:18:20 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2025-10-19 18:18:27 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.241 secs
+    Apply Data Archives                        0.197 secs
+    Call Convention ID                         4.059 secs
+    Call-Fixup Installer                       0.010 secs
+    Create Address Tables                      0.147 secs
+    Create Address Tables - One Time           0.022 secs
+    Create Function                            0.004 secs
+    DWARF                                      0.008 secs
+    Data Reference                             0.069 secs
+    Decompiler Switch Analysis                11.586 secs
+    Demangler GNU                              0.054 secs
+    Disassemble Entry Points                   1.900 secs
+    ELF Scalar Operand References              0.705 secs
+    Embedded Media                             0.059 secs
+    External Entry References                  0.016 secs
+    External Symbol Resolver                   0.001 secs
+    Function ID                                0.823 secs
+    Function Start Search                      0.097 secs
+    Function Start Search After Code           0.027 secs
+    Function Start Search After Data           0.025 secs
+    GCC Exception Handlers                     0.845 secs
+    Non-Returning Functions - Discovered       0.218 secs
+    Non-Returning Functions - Known            0.007 secs
+    Reference                                  0.175 secs
+    Shared Return Calls                        0.193 secs
+    Stack                                      2.957 secs
+    Subroutine References                      0.061 secs
+    x86 Constant Reference Analyzer            3.309 secs
+-----------------------------------------------------
+     Total Time   27 secs
+-----------------------------------------------------
+  
+2025-10-19 18:18:27 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2025-10-19 18:18:27 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.001 secs)  
+2025-10-19 18:18:27 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (27.956 secs)  
+2025-10-19 18:18:27 DEBUG (ToolTaskManager) Background processing complete (27.961 secs)  
+2025-10-19 18:22:26 INFO  (RecoveryMgr) Sun Oct 19 18:22:26 EEST 2025 Recovery snapshot created: /home/admin/ctf/re/picoctf.rep/idata/00/~00000000.db/snapshotA.grf  
+2025-10-30 21:10:44 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-10-30 21:10:44 INFO  (LoggingInitialization) Using log file: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/application.log  
+2025-10-30 21:10:44 INFO  (Preferences) Loading user preferences: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/preferences  
+2025-10-30 21:10:44 INFO  (Preferences) Loading previous preferences: /home/admin/.ghidra/.ghidra_11.0.3_DEV/preferences  
+2025-10-30 21:10:44 INFO  (ClassSearcher) Searching for classes...  
+2025-10-30 21:10:45 INFO  (ClassSearcher) Class search complete (576 ms)  
+2025-10-30 21:10:45 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-10-30 21:10:45 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-10-30 21:10:45 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-10-30 21:10:45 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-10-30 21:10:45 INFO  (GhidraRun) User admin started Ghidra.  
+2025-10-30 21:10:45 INFO  (GhidraRun) User settings directory: /home/admin/.config/ghidra/ghidra_11.4.2_DEV  
+2025-10-30 21:10:45 INFO  (GhidraRun) User temp directory: /tmp/admin-ghidra  
+2025-10-30 21:10:45 INFO  (GhidraRun) User cache directory: /var/tmp/admin-ghidra  
+2025-10-30 21:10:46 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-10-30 21:10:46 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/picoctf  
+2025-10-30 21:10:46 INFO  (IndexJournal) restoring data storage index...  
+2025-10-30 21:10:47 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/admin-ghidra/packed-db-cache  
+2025-10-30 21:10:47 DEBUG (PackedDatabaseCache) Caching packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-30 21:10:47 DEBUG (PackedDatabase) Unpacking database /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt -> /var/tmp/admin-ghidra/packed-db-cache/pdb3447A4EC/db.1.gbf  
+2025-10-30 21:10:47 DEBUG (PackedDatabaseCache) Cache update completed: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-30 21:10:48 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/admin-ghidra/fscache2  
+2025-10-30 21:10:48 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2025-10-30 21:10:56 DEBUG (ToolTaskManager) Background processing started...  
+2025-10-30 21:10:56 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-10-30 21:10:56 INFO  (GhidraRun) Ghidra startup complete (12524 ms)  
+2025-10-30 21:10:56 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=670139b05b438fbd512de3e3a3bf2715f295cbbc]  
+2025-10-30 21:10:56 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2025-10-30 21:10:59 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    Call-Fixup Installer                       0.006 secs
+    Create Function                            0.005 secs
+    DWARF                                      0.005 secs
+    Decompiler Switch Analysis                 1.124 secs
+    Disassemble Entry Points                   1.364 secs
+    Embedded Media                             0.017 secs
+    External Entry References                  0.004 secs
+    GCC Exception Handlers                     0.773 secs
+    Non-Returning Functions - Discovered       0.198 secs
+    Non-Returning Functions - Known            0.009 secs
+    Shared Return Calls                        0.115 secs
+    Subroutine References                      0.054 secs
+-----------------------------------------------------
+     Total Time   3 secs
+-----------------------------------------------------
+  
+2025-10-30 21:10:59 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (3.834 secs)  
+2025-10-30 21:10:59 DEBUG (ToolTaskManager) Background processing complete (3.839 secs)  
+2025-10-30 21:11:06 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-10-30 21:11:06 INFO  (LoggingInitialization) Using log file: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/application.log  
+2025-10-30 21:11:06 INFO  (Preferences) Loading user preferences: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/preferences  
+2025-10-30 21:11:06 INFO  (Preferences) Loading previous preferences: /home/admin/.ghidra/.ghidra_11.0.3_DEV/preferences  
+2025-10-30 21:11:06 INFO  (ClassSearcher) Searching for classes...  
+2025-10-30 21:11:06 INFO  (ClassSearcher) Class search complete (580 ms)  
+2025-10-30 21:11:06 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-10-30 21:11:06 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-10-30 21:11:06 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-10-30 21:11:06 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-10-30 21:11:06 INFO  (GhidraRun) User admin started Ghidra.  
+2025-10-30 21:11:06 INFO  (GhidraRun) User settings directory: /home/admin/.config/ghidra/ghidra_11.4.2_DEV  
+2025-10-30 21:11:06 INFO  (GhidraRun) User temp directory: /tmp/admin-ghidra  
+2025-10-30 21:11:06 INFO  (GhidraRun) User cache directory: /var/tmp/admin-ghidra  
+2025-10-30 21:11:07 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-10-30 21:11:07 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/picoctf  
+2025-10-30 21:11:08 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/admin-ghidra/packed-db-cache  
+2025-10-30 21:11:08 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-30 21:11:24 INFO  (GhidraRun) Ghidra startup complete (18411 ms)  
+2025-10-30 21:11:57 INFO  (FileActionManager) Closed project: picoctf  
+2025-10-30 21:11:57 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/pwnable.tw  
+2025-10-30 21:11:57 INFO  (FileActionManager) Opened project: pwnable.tw  
+2025-10-30 21:12:21 DEBUG (ElfHeader) Elf relocation table section .rela.plt affecting .got.plt  
+2025-10-30 21:12:22 DEBUG (ElfHeader) Elf relocation table section .rela.plt affecting .got.plt  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_3.5 at 004b6ef4  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 24-byte alignment/filler segment_3.7 at 004b6fe8  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 16-byte alignment/filler segment_3.9 at 004b70d0  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_3.12 at 004b8c18  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 3-byte alignment/filler segment_2.3 at 004a837d  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_1.2 at 00401017  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 2-byte alignment/filler segment_1.6 at 0048e32a  
+2025-10-30 21:12:22 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_0.4 at 00400244  
+2025-10-30 21:12:23 INFO  (ImporterUtilities) Additional info:
+Loading file:///home/admin/ctf/pwnable.tw/3x17/3x17?MD5=c9dba162d90f403aabdda17b56261b0c...
+Setting block .tdata to read-only
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+------------------------------------------------
+
+  
+2025-10-30 21:12:31 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-30 21:12:34 DEBUG (ToolTaskManager) Background processing started...  
+2025-10-30 21:12:34 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-10-30 21:12:35 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=a9f43736cc372b3d1682efa57f19a4d5c70e41d3]  
+2025-10-30 21:12:35 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2025-10-30 21:12:55 DEBUG (PackedDatabaseCache) Caching packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-10-30 21:12:55 DEBUG (PackedDatabase) Unpacking database /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt -> /var/tmp/admin-ghidra/packed-db-cache/pdb33D849AE/db.1.gbf  
+2025-10-30 21:12:55 DEBUG (PackedDatabaseCache) Cache update completed: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-10-30 21:12:55 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2025-10-30 21:12:58 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.183 secs
+    Apply Data Archives                        0.109 secs
+    Call Convention ID                         0.009 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.099 secs
+    Create Address Tables - One Time           0.047 secs
+    Create Function                            0.027 secs
+    DWARF                                      0.014 secs
+    Data Reference                             0.081 secs
+    Decompiler Switch Analysis                11.043 secs
+    Demangler GNU                              0.023 secs
+    Disassemble                                0.029 secs
+    Disassemble Entry Points                   0.862 secs
+    ELF Scalar Operand References              0.501 secs
+    Embedded Media                             0.007 secs
+    External Entry References                  0.000 secs
+    External Symbol Resolver                   0.001 secs
+    Function ID                                0.655 secs
+    Function Start Search                      0.034 secs
+    Function Start Search After Code           0.019 secs
+    Function Start Search After Data           0.016 secs
+    GCC Exception Handlers                     0.493 secs
+    Non-Returning Functions - Discovered       3.375 secs
+    Non-Returning Functions - Known            0.001 secs
+    Reference                                  0.146 secs
+    Shared Return Calls                        0.122 secs
+    Stack                                      2.243 secs
+    Subroutine References                      0.101 secs
+    Subroutine References - One Time           0.000 secs
+    x86 Constant Reference Analyzer            2.911 secs
+-----------------------------------------------------
+     Total Time   23 secs
+-----------------------------------------------------
+  
+2025-10-30 21:12:58 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2025-10-30 21:12:58 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2025-10-30 21:12:58 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (23.247 secs)  
+2025-10-30 21:12:58 DEBUG (ToolTaskManager) Background processing complete (23.253 secs)  
+2025-10-30 21:16:57 INFO  (RecoveryMgr) Thu Oct 30 21:16:57 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotA.grf  
+2025-10-31 14:57:19 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.util.ConcurrentModificationException
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1230)
+	at ghidra.app.extension.datatype.finder.DtrfDbg.println(DtrfDbg.java:94)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.searchDecompilation(DecompilerDataTypeReferenceFinder.java:330)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.findUsage(DecompilerDataTypeReferenceFinder.java:312)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:267)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:238)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:666)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:76)
+	... 3 more
+ 
+2025-10-31 14:57:19 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.util.ConcurrentModificationException
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1230)
+	at ghidra.app.extension.datatype.finder.DtrfDbg.println(DtrfDbg.java:94)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.searchDecompilation(DecompilerDataTypeReferenceFinder.java:330)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.findUsage(DecompilerDataTypeReferenceFinder.java:312)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:267)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:238)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:666)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:76)
+	... 3 more
+ 
+2025-10-31 14:57:19 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.util.ConcurrentModificationException
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1230)
+	at ghidra.app.extension.datatype.finder.DtrfDbg.println(DtrfDbg.java:94)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.searchDecompilation(DecompilerDataTypeReferenceFinder.java:330)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.findUsage(DecompilerDataTypeReferenceFinder.java:312)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:267)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:238)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:666)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:76)
+	... 3 more
+ 
+2025-10-31 14:57:19 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.util.ConcurrentModificationException
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1230)
+	at ghidra.app.extension.datatype.finder.DtrfDbg.println(DtrfDbg.java:94)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.searchDecompilation(DecompilerDataTypeReferenceFinder.java:330)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.findUsage(DecompilerDataTypeReferenceFinder.java:312)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:267)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:238)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:666)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:76)
+	... 3 more
+ 
+2025-10-31 14:57:19 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.util.ConcurrentModificationException
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1230)
+	at ghidra.app.extension.datatype.finder.DtrfDbg.println(DtrfDbg.java:94)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.searchDecompilation(DecompilerDataTypeReferenceFinder.java:330)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.findUsage(DecompilerDataTypeReferenceFinder.java:312)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:267)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:238)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:666)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:76)
+	... 3 more
+ 
+2025-10-31 14:57:19 ERROR (DecompilerDataTypeReferenceFinder) Encountered an exception decompiling functions java.util.concurrent.ExecutionException: java.util.ConcurrentModificationException
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1230)
+	at ghidra.app.extension.datatype.finder.DtrfDbg.println(DtrfDbg.java:94)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.searchDecompilation(DecompilerDataTypeReferenceFinder.java:330)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinder.findUsage(DecompilerDataTypeReferenceFinder.java:312)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:267)
+	at ghidra.app.extension.datatype.finder.DecompilerDataTypeReferenceFinder$DecompilerDataTypeFinderQCallback.process(DecompilerDataTypeReferenceFinder.java:238)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:666)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:76)
+	... 3 more
+ 
+2025-10-31 15:00:09 DEBUG (ToolTaskManager) Background processing started...  
+2025-10-31 15:00:09 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-10-31 15:00:09 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.022 secs)  
+2025-10-31 15:00:09 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-10-31 15:00:09 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-10-31 15:00:09 DEBUG (ToolTaskManager) Background processing complete (0.025 secs)  
+2025-10-31 15:01:58 INFO  (RecoveryMgr) Fri Oct 31 15:01:58 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotB.grf  
+2025-10-31 15:15:04 DEBUG (ToolTaskManager) Background processing started...  
+2025-10-31 15:15:04 DEBUG (ToolTaskManager) Task Start: Clear with Options  
+2025-10-31 15:15:04 DEBUG (ToolTaskManager) Task Completed: Clear with Options (0.024 secs)  
+2025-10-31 15:15:04 DEBUG (ToolTaskManager) Background processing complete (0.026 secs)  
+2025-10-31 15:15:52 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-10-31 15:15:58 DEBUG (ToolTaskManager) Background processing started...  
+2025-10-31 15:15:58 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-10-31 15:15:58 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=a9f43736cc372b3d1682efa57f19a4d5c70e41d3]  
+2025-10-31 15:15:58 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2025-10-31 15:16:18 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-10-31 15:16:18 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2025-10-31 15:16:21 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.046 secs
+    Apply Data Archives                        0.085 secs
+    Call Convention ID                         0.008 secs
+    Call-Fixup Installer                       0.004 secs
+    Create Address Tables                      0.095 secs
+    Create Address Tables - One Time           0.040 secs
+    Create Function                            0.029 secs
+    DWARF                                      0.000 secs
+    Data Reference                             0.120 secs
+    Decompiler Switch Analysis                11.029 secs
+    Demangler GNU                              0.018 secs
+    Disassemble                                0.018 secs
+    Disassemble Entry Points                   0.831 secs
+    ELF Scalar Operand References              0.480 secs
+    Embedded Media                             0.048 secs
+    External Entry References                  0.000 secs
+    External Symbol Resolver                   0.000 secs
+    Function ID                                0.449 secs
+    Function Start Search                      0.086 secs
+    Function Start Search After Code           0.045 secs
+    Function Start Search After Data           0.015 secs
+    GCC Exception Handlers                     0.350 secs
+    Non-Returning Functions - Discovered       3.504 secs
+    Non-Returning Functions - Known            0.001 secs
+    Reference                                  0.146 secs
+    Shared Return Calls                        0.117 secs
+    Stack                                      2.045 secs
+    Subroutine References                      0.100 secs
+    Subroutine References - One Time           0.000 secs
+    x86 Constant Reference Analyzer            2.566 secs
+-----------------------------------------------------
+     Total Time   22 secs
+-----------------------------------------------------
+  
+2025-10-31 15:16:21 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2025-10-31 15:16:21 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2025-10-31 15:16:21 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (22.362 secs)  
+2025-10-31 15:16:21 DEBUG (ToolTaskManager) Background processing complete (22.37 secs)  
+2025-10-31 15:16:58 INFO  (RecoveryMgr) Fri Oct 31 15:16:58 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotA.grf  
+2025-10-31 19:13:08 WARN  (DecompileCallback) Decompiling 00478190, pcode error at 00000000: Could not follow disassembly flow into non-existing memory at 00000000  
+2025-10-31 19:13:08 WARN  (DecompileCallback) Decompiling 0047e6f0, pcode error at 00000000: Could not follow disassembly flow into non-existing memory at 00000000  
+2025-10-31 19:13:08 WARN  (DecompileCallback) Decompiling 00484100, pcode error at 00000000: Could not follow disassembly flow into non-existing memory at 00000000  
+2025-10-31 19:13:08 WARN  (DecompileCallback) Decompiling 00484650, pcode error at 00000000: Could not follow disassembly flow into non-existing memory at 00000000  
+2025-10-31 19:13:09 WARN  (DecompileCallback) Decompiling 0048b990, pcode error at 00000000: Could not follow disassembly flow into non-existing memory at 00000000  
+2025-10-31 19:13:09 WARN  (DecompileCallback) Decompiling 0048ba90, pcode error at 00000000: Could not follow disassembly flow into non-existing memory at 00000000  
+2025-11-01 16:32:10 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-01 16:32:10 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-01 16:32:10 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.011 secs)  
+2025-11-01 16:32:10 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-01 16:32:10 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-01 16:32:10 DEBUG (ToolTaskManager) Background processing complete (0.018 secs)  
+2025-11-01 16:36:58 INFO  (RecoveryMgr) Sat Nov 01 16:36:58 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotB.grf  
+2025-11-02 15:53:06 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-11-02 15:53:06 INFO  (LoggingInitialization) Using log file: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/application.log  
+2025-11-02 15:53:06 INFO  (Preferences) Loading user preferences: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/preferences  
+2025-11-02 15:53:06 INFO  (Preferences) Loading previous preferences: /home/admin/.ghidra/.ghidra_11.0.3_DEV/preferences  
+2025-11-02 15:53:06 INFO  (ClassSearcher) Searching for classes...  
+2025-11-02 15:53:07 INFO  (ClassSearcher) Class search complete (576 ms)  
+2025-11-02 15:53:07 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-11-02 15:53:07 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-11-02 15:53:07 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-11-02 15:53:07 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-11-02 15:53:07 INFO  (GhidraRun) User admin started Ghidra.  
+2025-11-02 15:53:07 INFO  (GhidraRun) User settings directory: /home/admin/.config/ghidra/ghidra_11.4.2_DEV  
+2025-11-02 15:53:07 INFO  (GhidraRun) User temp directory: /tmp/admin-ghidra  
+2025-11-02 15:53:07 INFO  (GhidraRun) User cache directory: /var/tmp/admin-ghidra  
+2025-11-02 15:53:08 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-11-02 15:53:08 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/pwnable.tw  
+2025-11-02 15:53:08 INFO  (LocalBufferFile) Removed old presave file: /home/admin/ctf/re/pwnable.tw.rep/user/00/~00000001.db/tmp13771020057759101192.ps  
+2025-11-02 15:53:08 INFO  (LocalBufferFile) Removed old presave file: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/tmp13685042749348913170.ps  
+2025-11-02 15:53:08 INFO  (GhidraRun) Ghidra startup complete (2628 ms)  
+2025-11-02 15:53:12 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/admin-ghidra/packed-db-cache  
+2025-11-02 15:53:12 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-11-02 15:53:16 INFO  (RecoveryMgr) Applying buffer file recovery data: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/db.1.gbf  
+2025-11-02 15:53:17 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/admin-ghidra/fscache2  
+2025-11-02 15:53:17 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2025-11-02 15:56:39 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 15:56:39 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 15:56:39 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.029 secs)  
+2025-11-02 15:56:39 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 15:56:39 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-02 15:56:39 DEBUG (ToolTaskManager) Background processing complete (0.031 secs)  
+2025-11-02 15:56:51 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 15:56:51 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 15:56:51 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.031 secs)  
+2025-11-02 15:56:51 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 15:56:51 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-02 15:56:51 DEBUG (ToolTaskManager) Background processing complete (0.032 secs)  
+2025-11-02 15:57:04 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 15:57:04 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-11-02 15:57:04 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (0.031 secs)  
+2025-11-02 15:57:04 DEBUG (ToolTaskManager) Background processing complete (0.032 secs)  
+2025-11-02 15:58:08 INFO  (RecoveryMgr) Sun Nov 02 15:58:08 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotA.grf  
+2025-11-02 16:01:28 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 16:01:28 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 16:01:28 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.014 secs)  
+2025-11-02 16:01:28 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 16:01:28 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.001 secs)  
+2025-11-02 16:01:28 DEBUG (ToolTaskManager) Background processing complete (0.015 secs)  
+2025-11-02 16:03:08 INFO  (RecoveryMgr) Sun Nov 02 16:03:08 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotB.grf  
+2025-11-02 16:20:58 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 16:20:58 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-11-02 16:20:58 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (0.024 secs)  
+2025-11-02 16:20:58 DEBUG (ToolTaskManager) Background processing complete (0.024 secs)  
+2025-11-02 16:21:00 ERROR (SwingUpdateManager) Unexpected Exception: Unexpected exception in Swing Update Manager java.lang.NullPointerException: Cannot invoke "ghidra.app.decompiler.component.DecompilerPanel$ActiveMiddleMouse.apply()" because "this.activeMiddleMouse" is null
+	at ghidra.app.decompiler.component.DecompilerPanel.lambda$repairMiddleMouseSelectionForRename$3(DecompilerPanel.java:394)
+	at ghidra.app.plugin.core.decompile.DecompilerProvider.doFollowUpWork(DecompilerProvider.java:355)
+	at ghidra.app.plugin.core.decompile.DecompilerProvider.lambda$new$1(DecompilerProvider.java:165)
+	at ghidra.util.task.SwingUpdateManager.swingDoWork(SwingUpdateManager.java:108)
+	at ghidra.util.task.AbstractSwingUpdateManager.swingExecutePendingWork(AbstractSwingUpdateManager.java:338)
+	at ghidra.util.task.AbstractSwingUpdateManager.timerCallback(AbstractSwingUpdateManager.java:287)
+	at ghidra.util.task.AbstractSwingUpdateManager.lambda$new$0(AbstractSwingUpdateManager.java:131)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:289)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:221)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-02 16:23:08 INFO  (RecoveryMgr) Sun Nov 02 16:23:08 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotA.grf  
+2025-11-02 19:59:44 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 19:59:44 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 19:59:44 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.016 secs)  
+2025-11-02 19:59:44 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 19:59:44 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-02 19:59:44 DEBUG (ToolTaskManager) Background processing complete (0.018 secs)  
+2025-11-02 20:00:05 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 20:00:05 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 20:00:05 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.012 secs)  
+2025-11-02 20:00:05 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 20:00:05 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-02 20:00:05 DEBUG (ToolTaskManager) Background processing complete (0.014 secs)  
+2025-11-02 20:01:28 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 20:01:28 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 20:01:28 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.012 secs)  
+2025-11-02 20:01:28 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 20:01:28 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-02 20:01:28 DEBUG (ToolTaskManager) Background processing complete (0.012 secs)  
+2025-11-02 20:03:08 INFO  (RecoveryMgr) Sun Nov 02 20:03:08 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotB.grf  
+2025-11-02 20:04:07 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 20:04:07 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-11-02 20:04:07 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (0.236 secs)  
+2025-11-02 20:04:07 DEBUG (ToolTaskManager) Background processing complete (0.237 secs)  
+2025-11-02 20:04:25 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-02 20:04:25 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 20:04:25 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.012 secs)  
+2025-11-02 20:04:25 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-02 20:04:25 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-02 20:04:25 DEBUG (ToolTaskManager) Background processing complete (0.013 secs)  
+2025-11-02 20:08:08 INFO  (RecoveryMgr) Sun Nov 02 20:08:08 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/snapshotA.grf  
+2025-11-27 09:38:43 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-11-27 09:38:43 INFO  (LoggingInitialization) Using log file: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/application.log  
+2025-11-27 09:38:43 INFO  (Preferences) Loading user preferences: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/preferences  
+2025-11-27 09:38:43 INFO  (Preferences) Loading previous preferences: /home/admin/.ghidra/.ghidra_11.0.3_DEV/preferences  
+2025-11-27 09:38:43 INFO  (ClassSearcher) Searching for classes...  
+2025-11-27 09:38:44 INFO  (ClassSearcher) Class search complete (570 ms)  
+2025-11-27 09:38:44 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-11-27 09:38:44 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-11-27 09:38:44 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-11-27 09:38:44 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-11-27 09:38:44 INFO  (GhidraRun) User admin started Ghidra.  
+2025-11-27 09:38:44 INFO  (GhidraRun) User settings directory: /home/admin/.config/ghidra/ghidra_11.4.2_DEV  
+2025-11-27 09:38:44 INFO  (GhidraRun) User temp directory: /tmp/admin-ghidra  
+2025-11-27 09:38:44 INFO  (GhidraRun) User cache directory: /var/tmp/admin-ghidra  
+2025-11-27 09:38:45 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-11-27 09:38:45 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/pwnable.tw  
+2025-11-27 09:38:45 INFO  (LocalBufferFile) Removed old presave file: /home/admin/ctf/re/pwnable.tw.rep/user/00/~00000001.db/tmp14289907798429151856.ps  
+2025-11-27 09:38:45 INFO  (LocalBufferFile) Removed old presave file: /home/admin/ctf/re/pwnable.tw.rep/idata/00/~00000001.db/tmp17947750305872772042.ps  
+2025-11-27 09:38:45 INFO  (GhidraRun) Ghidra startup complete (2734 ms)  
+2025-11-27 09:38:59 INFO  (FileActionManager) Closed project: pwnable.tw  
+2025-11-27 09:38:59 INFO  (DefaultProject) Creating project: /home/admin/ctf/re/pwnable.kr  
+2025-11-27 09:39:46 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/admin-ghidra/fscache2  
+2025-11-27 09:39:46 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2025-11-27 09:39:57 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2025-11-27 09:39:57 DEBUG (ElfHeader) Elf symbol table section .symtab linked to string table section .strtab  
+2025-11-27 09:39:57 DEBUG (ElfHeader) Elf relocation table section .rel.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2025-11-27 09:39:57 DEBUG (ElfHeader) Elf relocation table section .rel.plt linked to symbol table section .dynsym affecting .plt  
+2025-11-27 09:39:59 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2025-11-27 09:39:59 DEBUG (ElfHeader) Elf symbol table section .symtab linked to string table section .strtab  
+2025-11-27 09:39:59 DEBUG (ElfHeader) Elf relocation table section .rel.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2025-11-27 09:39:59 DEBUG (ElfHeader) Elf relocation table section .rel.plt linked to symbol table section .dynsym affecting .plt  
+2025-11-27 09:39:59 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_2.3 at 08048167  
+2025-11-27 09:39:59 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_2.9 at 080483a9  
+2025-11-27 09:39:59 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_2.15 at 080484af  
+2025-11-27 09:39:59 DEBUG (ElfProgramBuilder) Discarding 2-byte alignment/filler segment_2.18 at 08048e72  
+2025-11-27 09:39:59 INFO  (ImporterUtilities) Additional info:
+Loading file:///home/admin/ctf/pwnable.kr/dragon/dragon?MD5=b0eee505ae54072a875d644edf3fa896...
+ELF Relocation Failure: R_386_COPY (5, 0x5) at 0804b060 (Symbol = stdin) - Runtime copy not supported (4-bytes)
+ELF Relocation Failure: R_386_COPY (5, 0x5) at 0804b080 (Symbol = stdout) - Runtime copy not supported (4-bytes)
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .jcr to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'dragon' to imported libraries...
+  [libc.so.6] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/dragon] - 12 unresolved symbols, no external libraries configured - skipping
+  
+2025-11-27 09:40:05 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/admin-ghidra/packed-db-cache  
+2025-11-27 09:40:05 DEBUG (PackedDatabaseCache) Caching packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-11-27 09:40:05 DEBUG (PackedDatabase) Unpacking database /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt -> /var/tmp/admin-ghidra/packed-db-cache/pdbB9618396/db.1.gbf  
+2025-11-27 09:40:05 DEBUG (PackedDatabaseCache) Cache update completed: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-11-27 09:40:08 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-27 09:40:08 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-11-27 09:40:08 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=a7a354f09b431b4523192272c448af835b35ae9b]  
+2025-11-27 09:40:08 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2025-11-27 09:40:08 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2025-11-27 09:40:09 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2025-11-27 09:40:09 INFO  (ExternalSymbolResolverAnalyzer) Resolving External Symbols of [/dragon] - 13 unresolved symbols, no external libraries configured - skipping  
+2025-11-27 09:40:09 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.146 secs
+    Apply Data Archives                        0.085 secs
+    Call Convention ID                         0.229 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.001 secs
+    Create Function                            0.003 secs
+    DWARF                                      0.007 secs
+    Data Reference                             0.002 secs
+    Decompiler Switch Analysis                 0.023 secs
+    Decompiler Switch Analysis - One Time      0.914 secs
+    Demangler GNU                              0.009 secs
+    Disassemble Entry Points                   0.045 secs
+    ELF Scalar Operand References              0.009 secs
+    Embedded Media                             0.006 secs
+    External Entry References                  0.000 secs
+    External Symbol Resolver                   0.001 secs
+    Function ID                                0.062 secs
+    Function Start Search                      0.004 secs
+    Function Start Search After Code           0.001 secs
+    Function Start Search After Data           0.000 secs
+    GCC Exception Handlers                     0.022 secs
+    Non-Returning Functions - Discovered       0.003 secs
+    Non-Returning Functions - Known            0.002 secs
+    Reference                                  0.009 secs
+    Shared Return Calls                        0.004 secs
+    Stack                                      0.039 secs
+    Subroutine References                      0.002 secs
+    X86 Function Callee Purge                  0.001 secs
+    x86 Constant Reference Analyzer            0.048 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+  
+2025-11-27 09:40:09 DEBUG (ToolTaskManager) Start: Auto Analysis  
+2025-11-27 09:40:09 DEBUG (ToolTaskManager) Completed: Auto Analysis (0.0 secs)  
+2025-11-27 09:40:09 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (1.773 secs)  
+2025-11-27 09:40:09 DEBUG (ToolTaskManager) Background processing complete (1.774 secs)  
+2025-11-27 09:42:33 ERROR (SwingUpdateManager) Unexpected Exception: Unexpected exception in Swing Update Manager java.lang.NullPointerException: Cannot invoke "ghidra.app.decompiler.component.DecompilerPanel$ActiveMiddleMouse.apply()" because "this.activeMiddleMouse" is null
+	at ghidra.app.decompiler.component.DecompilerPanel.lambda$repairMiddleMouseSelectionForRename$3(DecompilerPanel.java:394)
+	at ghidra.app.plugin.core.decompile.DecompilerProvider.doFollowUpWork(DecompilerProvider.java:355)
+	at ghidra.app.plugin.core.decompile.DecompilerProvider.lambda$new$1(DecompilerProvider.java:165)
+	at ghidra.util.task.SwingUpdateManager.swingDoWork(SwingUpdateManager.java:108)
+	at ghidra.util.task.AbstractSwingUpdateManager.swingExecutePendingWork(AbstractSwingUpdateManager.java:338)
+	at ghidra.util.task.AbstractSwingUpdateManager.timerCallback(AbstractSwingUpdateManager.java:287)
+	at ghidra.util.task.AbstractSwingUpdateManager.lambda$new$0(AbstractSwingUpdateManager.java:131)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:289)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:221)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 09:43:59 INFO  (RecoveryMgr) Thu Nov 27 09:43:59 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/snapshotA.grf  
+2025-11-27 09:44:47 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-27 09:44:47 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-27 09:44:47 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.016 secs)  
+2025-11-27 09:44:47 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-27 09:44:47 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-27 09:44:47 DEBUG (ToolTaskManager) Background processing complete (0.017 secs)  
+2025-11-27 09:48:59 INFO  (RecoveryMgr) Thu Nov 27 09:48:59 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/snapshotB.grf  
+2025-11-27 09:50:34 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-27 09:50:34 DEBUG (ToolTaskManager) Task Start: Auto Analysis  
+2025-11-27 09:50:34 DEBUG (ToolTaskManager) Task Completed: Auto Analysis (0.027 secs)  
+2025-11-27 09:50:34 DEBUG (ToolTaskManager) Background processing complete (0.028 secs)  
+2025-11-27 09:53:59 INFO  (RecoveryMgr) Thu Nov 27 09:53:59 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/snapshotA.grf  
+2025-11-27 09:58:59 INFO  (RecoveryMgr) Thu Nov 27 09:58:59 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/snapshotB.grf  
+2025-11-27 10:05:57 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-27 10:05:57 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-27 10:05:57 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.016 secs)  
+2025-11-27 10:05:57 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-27 10:05:57 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-27 10:05:57 DEBUG (ToolTaskManager) Background processing complete (0.017 secs)  
+2025-11-27 10:08:59 INFO  (RecoveryMgr) Thu Nov 27 10:08:59 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/snapshotA.grf  
+2025-11-27 12:09:11 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1114)
+	at java.desktop/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at java.desktop/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:75)
+	at java.desktop/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:112)
+	at java.desktop/java.awt.Container.paint(Container.java:1999)
+	at java.desktop/java.awt.Window.paint(Window.java:3850)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:836)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:09:11 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5272)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5082)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:825)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:09:11 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5272)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5082)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:825)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:48:38 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5272)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5082)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5094)
+	at docking.widgets.fieldpanel.internal.CursorBlinker$1.actionPerformed(CursorBlinker.java:45)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:289)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:221)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:48:38 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1114)
+	at java.desktop/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at java.desktop/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:75)
+	at java.desktop/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:112)
+	at java.desktop/java.awt.Container.paint(Container.java:1999)
+	at java.desktop/java.awt.Window.paint(Window.java:3850)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:836)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:48:38 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5272)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5082)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:825)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:48:38 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5272)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5082)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:825)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:48:39 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1114)
+	at java.desktop/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at java.desktop/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:75)
+	at java.desktop/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:112)
+	at java.desktop/java.awt.Container.paint(Container.java:1999)
+	at java.desktop/java.awt.Window.paint(Window.java:3850)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:836)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 12:48:39 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - Width (0) and height (0) cannot be <= 0 java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:74)
+	at java.desktop/sun.awt.image.SunVolatileImage.<init>(SunVolatileImage.java:121)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:305)
+	at java.desktop/java.awt.GraphicsConfiguration.createCompatibleVolatileImage(GraphicsConfiguration.java:239)
+	at java.desktop/javax.swing.RepaintManager.getVolatileOffscreenBuffer(RepaintManager.java:1054)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1499)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:271)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1279)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5272)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5082)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:825)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:788)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1840)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:187)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:229)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1051)
+	at java.desktop/java.awt.Component.show(Component.java:1690)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1637)
+	at java.desktop/java.awt.Window.setVisible(Window.java:982)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:989)
+	at docking.DockingDialog.setVisible(DockingDialog.java:363)
+	at docking.DockingWindowManager.lambda$doShowDialog$7(DockingWindowManager.java:1873)
+	at ghidra.util.Swing.doRun(Swing.java:292)
+	at ghidra.util.Swing.runNow(Swing.java:208)
+	at ghidra.util.Swing.runNow(Swing.java:163)
+	at docking.DockingWindowManager.doShowDialog(DockingWindowManager.java:1877)
+	at docking.DockingWindowManager.showDialog(DockingWindowManager.java:1825)
+	at docking.DockingErrorDisplay.showErrorDialogOnSwing(DockingErrorDisplay.java:187)
+	at docking.DockingErrorDisplay.showDialog(DockingErrorDisplay.java:166)
+	at docking.DockingErrorDisplay.doDisplayMessage(DockingErrorDisplay.java:134)
+	at docking.DockingErrorDisplay.lambda$displayMessage$0(DockingErrorDisplay.java:102)
+	at ghidra.util.Swing.runIfSwingOrRunLater(Swing.java:124)
+	at docking.DockingErrorDisplay.displayMessage(DockingErrorDisplay.java:102)
+	at docking.DockingErrorDisplay.displayErrorMessage(DockingErrorDisplay.java:55)
+	at ghidra.util.Msg.showError(Msg.java:306)
+	at ghidra.SwingExceptionHandler.handleUncaughtException(SwingExceptionHandler.java:73)
+	at ghidra.GhidraThreadGroup.handleUncaughtException(GhidraThreadGroup.java:68)
+	at ghidra.GhidraThreadGroup.uncaughtException(GhidraThreadGroup.java:38)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:218)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:210)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 
+2025-11-27 13:50:06 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-11-27 13:50:06 INFO  (LoggingInitialization) Using log file: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/application.log  
+2025-11-27 13:50:06 INFO  (Preferences) Loading user preferences: /home/admin/.config/ghidra/ghidra_11.4.2_DEV/preferences  
+2025-11-27 13:50:06 INFO  (Preferences) Loading previous preferences: /home/admin/.ghidra/.ghidra_11.0.3_DEV/preferences  
+2025-11-27 13:50:07 INFO  (ClassSearcher) Searching for classes...  
+2025-11-27 13:50:07 INFO  (ClassSearcher) Class search complete (561 ms)  
+2025-11-27 13:50:07 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-11-27 13:50:07 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-11-27 13:50:07 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-11-27 13:50:07 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-11-27 13:50:07 INFO  (GhidraRun) User admin started Ghidra.  
+2025-11-27 13:50:07 INFO  (GhidraRun) User settings directory: /home/admin/.config/ghidra/ghidra_11.4.2_DEV  
+2025-11-27 13:50:07 INFO  (GhidraRun) User temp directory: /tmp/admin-ghidra  
+2025-11-27 13:50:07 INFO  (GhidraRun) User cache directory: /var/tmp/admin-ghidra  
+2025-11-27 13:50:08 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-11-27 13:50:08 INFO  (DefaultProject) Opening project: /home/admin/ctf/re/pwnable.kr  
+2025-11-27 13:50:08 INFO  (GhidraRun) Ghidra startup complete (1828 ms)  
+2025-11-27 13:50:12 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/admin-ghidra/packed-db-cache  
+2025-11-27 13:50:12 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/ghidra/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2025-11-27 13:50:16 INFO  (RecoveryMgr) Applying buffer file recovery data: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/db.1.gbf  
+2025-11-27 13:50:29 WARN  (DecompileCallback) Decompiling 0804c010, pcode error at 0804c010: Unable to disassemble EXTERNAL block location: 0804c010  
+2025-11-27 13:58:24 DEBUG (ToolTaskManager) Background processing started...  
+2025-11-27 13:58:24 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-27 13:58:24 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.015 secs)  
+2025-11-27 13:58:24 DEBUG (ToolTaskManager) Task Start: Edit Label  
+2025-11-27 13:58:24 DEBUG (ToolTaskManager) Task Completed: Edit Label (0.0 secs)  
+2025-11-27 13:58:24 DEBUG (ToolTaskManager) Background processing complete (0.018 secs)  
+2025-11-27 14:00:08 INFO  (RecoveryMgr) Thu Nov 27 14:00:08 EET 2025 Recovery snapshot created: /home/admin/ctf/re/pwnable.kr.rep/idata/00/~00000000.db/snapshotB.grf  

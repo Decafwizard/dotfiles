@@ -1,0 +1,28 @@
+#User Preferences
+#Thu Nov 27 15:39:11 EET 2025
+G_FILE_CHOOSER.HEIGHT.Delete\ a\ Ghidra\ Project=600
+G_FILE_CHOOSER.HEIGHT.Open\ a\ Ghidra\ Project=600
+G_FILE_CHOOSER.HEIGHT.Select\ File\ to\ Import=600
+G_FILE_CHOOSER.VIEW_STYLE.Delete\ a\ Ghidra\ Project=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Open\ a\ Ghidra\ Project=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Select\ File\ to\ Import=SimpleView
+G_FILE_CHOOSER.WIDTH.Delete\ a\ Ghidra\ Project=800
+G_FILE_CHOOSER.WIDTH.Open\ a\ Ghidra\ Project=800
+G_FILE_CHOOSER.WIDTH.Select\ File\ to\ Import=800
+GhidraShowWhatsNew=false
+LAST_USED_OPTIONS_CONFIG=Standard Defaults
+LastImportFile=/home/admin/ctf/pwnable.kr/dragon/dragon
+LastOpenedProject=/home/admin/ctf/re/pwnable.kr
+LastSelectedProjectDirectory=/home/admin/ctf/re
+ProjectDirectory=/home/admin/ctf/re/
+RECENT_0=/home/admin/ctf/pwnable.kr/dragon
+RECENT_1=/home/admin/ctf/pwnable.tw/3x17
+RECENT_2=/home/admin/ctf/picoctf/2020
+RECENT_3=/home/admin/ctf/re
+RecentProjects=/home/admin/ctf/re/pwnable.kr;/home/admin/ctf/re/pwnable.tw;/home/admin/ctf/re/picoctf
+SHOW.HELP.NAVIGATION.AID=true
+SHOW_TIPS=false
+TIP_INDEX=1
+Theme=File\:/home/admin/.ghidra/.ghidra_11.0.3_DEV/themes/Catppuccin_Mocha.theme
+USER_AGREEMENT=ACCEPT
+ViewedProjects=
