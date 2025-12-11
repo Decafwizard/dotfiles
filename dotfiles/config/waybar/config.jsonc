@@ -1,0 +1,57 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+    "spacing": 4,
+    "exclusive": true,
+    "passthrough": false,
+    "fixed-center": true,
+    "swap-icon-label": true,
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "tray",
+        "wireplumber",
+        "battery"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": ""
+        }
+    },
+
+    "tray": {
+        "show-passive-items": true,
+        "spacing": 10
+    },
+
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-muted": "x",
+        "format-icons": ["", " ", " "],
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        // "on-click-right": "helvum",
+        "scroll-step": 5.0
+    },
+
+    "clock": {
+        "format": "{:%a %b %e %R %Y}",
+        "format-alt": "{:%c}",
+        "tooltip": false,
+        "interval": 1,
+        "timezone": "Europe/Athens"
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    }
+}
